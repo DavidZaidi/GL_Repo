@@ -57,6 +57,6 @@ Use these credentials as Destination:
 	postgres:dest@localhost:5433
 
 
-You will see that the data in Source (de_source.source_Table_A) is transferred to Destination (de_destination.dest_Table_A)
+You will see that the data in Source (de_source.src_data) is transferred to Destination (de_destination.dest_data)
 
 
