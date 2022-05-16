@@ -26,7 +26,7 @@ cd GL_Repo and run the command:
 # Running Docker Images
 
 	sudo docker run -d -p 5844:8080 -v ~/Apache_Airflow/dags/:/usr/local/airflow/dags dzaidi/airflow webserver 
-	sudo docker run dzaidi/redis (or sudo docker compose -f docker-compose-CeleryExecutor.yml up -d)
+	sudo docker run dzaidi/redis (or sudo docker-compose -f docker-compose-CeleryExecutor.yml up -d)
 
 (Make sure the directory you cloned the Repo in is aligned with the first location(~/Apache_Airflow/dags)
 
