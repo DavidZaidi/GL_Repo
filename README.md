@@ -16,7 +16,7 @@ Write command in terminal:
 	sudo docker pull dzaidi/redis
 
 # Clone this repository on your machine:
-	git clone https://github.com/DavidZaidi/Glints_Repo.git
+	git clone https://github.com/DavidZaidi/GL_Repo.git
 
 # Running Docker Images
 
