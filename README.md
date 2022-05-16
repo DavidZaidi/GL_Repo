@@ -11,9 +11,9 @@ Incase Docker is not installed
 
 Write command in terminal:
 
-	sudo docker push dzaidi/airflow
-	sudo docker push dzaidi/postgres
-	sudo docker push dzaidi/redis
+	sudo docker pull dzaidi/airflow
+	sudo docker pull dzaidi/postgres
+	sudo docker pull dzaidi/redis
 
 # Clone this repository on your machine:
 	git clone https://github.com/DavidZaidi/Glints_Repo.git
