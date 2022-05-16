@@ -42,6 +42,8 @@ Once the Images are running using docker, headout to:
 	
 Once you see ETL as Dag, Open and Run it.
 
+![image](https://user-images.githubusercontent.com/32931972/168552486-33fa07ae-d062-4fcd-ad3e-64b760ea8733.png)
+
 # Accessing Source/Destination Data
 
 When the Dag is completed successfully, use any IDE To access Postgres (Here we are using Dbeaver)
@@ -50,12 +52,15 @@ Use these credentials as source:
 	
 	user:password@host:port
 	postgres:source@localhost:5432
-	
+
+![Source_Data](https://user-images.githubusercontent.com/32931972/168552545-77bbf1c4-2269-43ad-8d16-fe2aa1ccaa08.JPG)
+
 Use these credentials as Destination:		
 
 	user:password@host:port
 	postgres:dest@localhost:5433
 
+![Destination_Data](https://user-images.githubusercontent.com/32931972/168552603-000ca367-7398-42ef-9dd6-d01f10b024ea.JPG)
 
 You will see that the data in Source (de_source.src_data) is transferred to Destination (de_destination.dest_data)
 
