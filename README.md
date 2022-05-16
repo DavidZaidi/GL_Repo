@@ -1,6 +1,13 @@
 # GL_Repo
 
+Visit:
+
+	https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-docker-on-ubuntu
+
+Incase Docker is not installed
+
 # Pull Images from Docker-hub (Make sure you have Docker installed)
+
 
 Write command in terminal:
 
