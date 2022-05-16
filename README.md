@@ -18,6 +18,11 @@ Write command in terminal:
 # Clone this repository on your machine:
 	git clone https://github.com/DavidZaidi/GL_Repo.git
 
+cd GL_Repo and run the command:
+	
+	git switch master
+	git clone https://github.com/DavidZaidi/GL_Repo.git
+
 # Running Docker Images
 
 	sudo docker run -d -p 5844:8080 -v ~/Apache_Airflow/dags/:/usr/local/airflow/dags dzaidi/airflow webserver 
